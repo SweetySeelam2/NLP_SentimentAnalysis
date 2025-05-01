@@ -17,6 +17,7 @@ End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
 
     The goal is to identify customer satisfaction vs dissatisfaction, helping platforms like Netflix or Amazon Prime drive content recommendations, retention strategies, and marketing decisions.
 
+---
 
 📊 **Business Problem:**
 
@@ -30,6 +31,7 @@ End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
 
     Accurately classifying sentiment from millions of reviews supports data-driven business decisions.
 
+---
 
 📚**Dataset:**
 
@@ -43,52 +45,55 @@ Records: 50,000 reviews (balanced: 25K Positive, 25K Negative).
 
     sentiment: Positive or Negative
 
+---
 
 🏗️**Phases Completed:**
 
 ***Phase***	     ***Description***	              ***Key Techniques***
 
 ------------------------------------------------------------------------------------
-1	    Exploratory Data Analysis	     Review Length, Sentiment Distribution
+1.	    Exploratory Data Analysis	   -  Review Length, Sentiment Distribution
 
-2	    Text Preprocessing	             Cleaning, Removing Stopwords, Lemmatization
+2.	    Text Preprocessing	           -  Cleaning, Removing Stopwords, Lemmatization
 
-3	    Machine Learning Baselines	     TF-IDF + Logistic Regression, Random Forest
+3.	    Machine Learning Baselines	   -  TF-IDF + Logistic Regression, Random Forest
 
-4	    Deep Learning	                 LSTM Neural Network
+4.	    Deep Learning	               -  LSTM Neural Network
 
-5	    Transformer Fine-Tuning          BERT Model Fine-tuning
+5.	    Transformer Fine-Tuning        -  BERT Model Fine-tuning
 
-6	    Explainability	                 SHAP, LIME for model interpretation
+6.	    Explainability	               -  SHAP, LIME for model interpretation
 
+---
 
 🎯 **Results Summary:**
 
-Model	               Accuracy	      Business Impact
+***Model***	         -***Accuracy***-	 ***Business Impact***
+
 ------------------------------------------------------------------------
-Logistic Regression	    89.8%	     Fast & lightweight model for basic deployment
+Logistic Regression	 -   89.8%	    -  Fast & lightweight model for basic deployment
 
-Random Forest	        85.9%	     More complex but lower performance
+Random Forest	     -   85.9%	    -  More complex but lower performance
 
-LSTM	                53.4%	     High overfitting, not optimal
+LSTM	             -   53.4%	    -  High overfitting, not optimal
 
-BERT Fine-Tuned	        93.1%	     Highest accuracy, ready for real-world deployment
+BERT Fine-Tuned	     -   93.1%	    -  Highest accuracy, ready for real-world deployment
 
 ✅ Logistic Regression served as a fast benchmark.
 
 ✅ BERT fine-tuning dramatically improved sentiment detection.
 
+---
 
 🧠 **Explainability Summary:**
+ 
+SHAP - Identified top positive/negative influential words.
 
-Tool	What It Did
-----    --------------------------------------------------  
-SHAP	Identified top positive/negative influential words.
-
-LIME	Provided local explanations for individual reviews.
+LIME - Provided local explanations for individual reviews.
 
 ✅ Explainability builds stakeholder trust.
 
+---
 
 📈 **Business Impact:**
         
@@ -96,6 +101,7 @@ LIME	Provided local explanations for individual reviews.
 
     - Estimated revenue protection up to $5M–$7M annually for companies like Netflix (based on average churn rates and membership costs).
 
+---
 
 ## 🚀 Live App
 
@@ -104,19 +110,21 @@ LIME	Provided local explanations for individual reviews.
 
 > Note: All deployment files for Hugging Face are located in the `/bert_sentiment_space/bert-sentiment-imdb-app/` folder.
 
+---
 
 📦 **Project Files:** 
 
-    notebooks/ → Full EDA, ML, DL, Explainability work.
+- notebooks/ → Full EDA, ML, DL, Explainability work.
 
-    bert_sentiment_space/ → Streamlit App for Hugging Face.
+- bert_sentiment_space/ → Streamlit App for Hugging Face.
 
-    model/ → Fine-tuned BERT Model files.
+- model/ → Fine-tuned BERT Model files.
 
-    data/ → IMDb Review Sample Dataset.
+- data/ → IMDb Review Sample Dataset.
 
-    app.py → Streamlit Application Code.
+- app.py → Streamlit Application Code.
 
+---
 
 ⚙️ **Requirements:**
 
@@ -130,19 +138,21 @@ LIME	Provided local explanations for individual reviews.
     - numpy                            
     - matplotlib                                       
 
+---
 
 **Author:**
 
 Sweety Seelam | Business Analyst | Data Scientist aspirant
 
-Email: sweetyseelam2@gmail.com
+- Email: sweetyseelam2@gmail.com
 
-Github: https://github.com/SweetySeelam2/NLP_SentimentAnalysis
+- Github: https://github.com/SweetySeelam2/NLP_SentimentAnalysis
 
-LinkedIn: https://www.linkedin.com/in/sweetyrao670/
+- LinkedIn: https://www.linkedin.com/in/sweetyrao670/
 
-Portfolio: https://sweetyseelam2.github.io/SweetySeelam.github.io/
+- Portfolio: https://sweetyseelam2.github.io/SweetySeelam.github.io/
 
+---
 
 📄 **License:**                                  
 
