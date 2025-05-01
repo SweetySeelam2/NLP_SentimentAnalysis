@@ -46,7 +46,8 @@ Records: 50,000 reviews (balanced: 25K Positive, 25K Negative).
 
 🏗️**Phases Completed:**
 
-Phase	     Description	              Key Techniques
+***Phase***	     ***Description***	              ***Key Techniques***
+
 ------------------------------------------------------------------------------------
 1	    Exploratory Data Analysis	     Review Length, Sentiment Distribution
 
