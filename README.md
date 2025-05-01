@@ -1,6 +1,8 @@
 
 [![Hugging Face Spaces](https://img.shields.io/badge/HF%20Spaces-View%20App-blue?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/sweetyseelam/bert-sentiment-imdb-app)
 
+---
+
 **🎬 IMDb Movie Reviews Sentiment Analysis using Machine Learning, Deep Learning, and Explainability Tools**
 
 End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
