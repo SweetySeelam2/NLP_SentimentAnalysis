@@ -3,13 +3,13 @@
 
 ---
 
-**🎬 IMDb Movie Reviews Sentiment Analysis using Machine Learning, Deep Learning, and Explainability Tools**
+# 🎬 IMDb Movie Reviews Sentiment Analysis using Machine Learning, Deep Learning, and Explainability Tools
 
 End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
 
 ----
 
-📄 **Project Overview:**
+## 📄 Project Overview
 
     This project performs end-to-end Sentiment Analysis on IMDb Movie Reviews and classifies them into Positive or Negative sentiments.
 
@@ -19,7 +19,7 @@ End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
 
 ---
 
-📊 **Business Problem:**
+## 📊 Business Problem
 
     Understanding customer feedback at scale is crucial for entertainment platforms like Netflix, Amazon Prime, etc., to:
 
@@ -33,7 +33,7 @@ End-to-End NLP Pipeline with EDA, ML & LSTM Models for Business Insights
 
 ---
 
-📚**Dataset:**
+## 📚 Dataset
 
 Source: IMDb 50K Review Dataset - Kaggle.                         
 
@@ -47,7 +47,7 @@ Records: 50,000 reviews (balanced: 25K Positive, 25K Negative).
 
 ---
 
-🏗️**Phases Completed:**
+## 🏗️ Phases Completed
 
 ***Phase***	     ***Description***	              ***Key Techniques***
 
@@ -66,7 +66,7 @@ Records: 50,000 reviews (balanced: 25K Positive, 25K Negative).
 
 ---
 
-🎯 **Results Summary:**
+## 🎯 Results Summary
 
 ***Model***	         -***Accuracy***-	 ***Business Impact***
 
@@ -85,7 +85,7 @@ BERT Fine-Tuned	     -   93.1%	    -  Highest accuracy, ready for real-world dep
 
 ---
 
-🧠 **Explainability Summary:**
+## 🧠 Explainability Summary
  
 SHAP - Identified top positive/negative influential words.
 
@@ -95,7 +95,7 @@ LIME - Provided local explanations for individual reviews.
 
 ---
 
-📈 **Business Impact:**
+## 📈 Business Impact
         
     - Potential uplift of ~3–5% customer retention by detecting dissatisfaction early.
 
@@ -112,7 +112,7 @@ LIME - Provided local explanations for individual reviews.
 
 ---
 
-📦 **Project Files:** 
+## 📦 Project Files
 
 - notebooks/ → Full EDA, ML, DL, Explainability work.
 
@@ -126,7 +126,7 @@ LIME - Provided local explanations for individual reviews.
 
 ---
 
-⚙️ **Requirements:**
+## ⚙️ Requirements
 
     - torch                            
     - transformers                                 
@@ -140,22 +140,23 @@ LIME - Provided local explanations for individual reviews.
 
 ---
 
-**Author:**
+## 👩‍💼 About the Author    
 
-Sweety Seelam | Business Analyst | Data Scientist aspirant
+**Sweety Seelam** | Business Analyst | Aspiring Data Scientist | Passionate about building end-to-end ML solutions for real-world problems                                                                                                      
+                                                                                                                                           
+Email: sweetyseelam2@gmail.com                                                   
 
-- Email: sweetyseelam2@gmail.com
-
-- Github: https://github.com/SweetySeelam2/NLP_SentimentAnalysis
-
-- LinkedIn: https://www.linkedin.com/in/sweetyrao670/
-
-- Portfolio: https://sweetyseelam2.github.io/SweetySeelam.github.io/
+🔗 **Profile Links**                                                                                                                                                                       
+[Portfolio Website](https://sweetyseelam2.github.io/SweetySeelam.github.io/)                                                         
+[LinkedIn](https://www.linkedin.com/in/sweetyrao670/)                                                                   
+[GitHub](https://github.com/SweetySeelam2)                                                             
+[Medium](https://medium.com/@sweetyseelam)
 
 ---
 
-🔒 **Proprietary & All Rights Reserved**
+## 🔐 Proprietary & All Rights Reserved
+© 2025 Sweety Seelam. All rights reserved.
 
-© 2025 Sweety Seelam. This work is proprietary and protected by copyright. All content, models, code, and visuals are © 2025 Sweety Seelam. No part of this project, app, code, or analysis may be copied, reproduced, distributed, or used for any purpose—commercial or otherwise—without explicit written permission from the author.
+This project, including its source code, trained models, datasets (where applicable), visuals, and dashboard assets, is protected under copyright and made available for educational and demonstrative purposes only.
 
-For licensing, commercial use, or collaboration inquiries, please contact: Email: sweetyseelam2@gmail.com
+Unauthorized commercial use, redistribution, or duplication of any part of this project is strictly prohibited.
